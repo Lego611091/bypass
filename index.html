@@ -1,69 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 26.2.5.1 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="00:00:00"/>
-	<style type="text/css">
-		@page { size: 8.27in 11.69in; margin: 0.79in }
-		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
-		pre { background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-	</style>
+  <meta charset="UTF-8">
+  <title>bypass – static viewer</title>
+
+  <!-- Load CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/globals.css">
 </head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;UTF-8&quot;&gt;
-  &lt;title&gt;bypass – full repo loader&lt;/title&gt;
 
-  &lt;!-- Load CSS --&gt;
-  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/globals.css&quot;&gt;
-&lt;/head&gt;
+<body>
+  <h1>Static File Viewer</h1>
+  <p>This page loads all static assets from your repo.</p>
 
-&lt;body&gt;
-  &lt;h1&gt;Loaded All Files&lt;/h1&gt;
+  <h2>Images</h2>
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/apple-icon.png">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon-dark-32x32.png">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon-light-32x32.png">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder.jpg">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-logo.png">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-logo.svg">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-user.jpg">
+  <img src="https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/quantum-logo.png">
 
-  &lt;!-- Load TS/JS files as modules --&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/ai-panel.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/bookmarks-panel.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/browser-frame.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/browser-provider.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/button.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/engine-switcher.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/history-panel.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/layout.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/page.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/proxy.ts&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/quantum-browser.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/route.ts&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/search-engines.ts&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/settings-panel.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/side-panel.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/start-page.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/tab-strip.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/toolbar.tsx&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/types.ts&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/use-local-storage.ts&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;module&quot; src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/utils.ts&quot;&gt;&lt;/script&gt;
-
-  &lt;h2&gt;Images&lt;/h2&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/apple-icon.png&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon.svg&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon-dark-32x32.png&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/icon-light-32x32.png&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder.jpg&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder.svg&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-logo.png&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-logo.svg&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/placeholder-user.jpg&quot;&gt;
-  &lt;img src=&quot;https://cdn.jsdelivr.net/gh/Lego611091/bypass@main/quantum-logo.png&quot;&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;</pre>
+  <h2>Note</h2>
+  <p>
+    TSX files cannot run in the browser.  
+    They require a React/TypeScript build step.  
+    This page only loads static assets that browsers can display.
+  </p>
 </body>
 </html>
